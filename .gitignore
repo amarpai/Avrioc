@@ -12,12 +12,29 @@ films-backend/yarn-error.log*
 films-backend/lerna-debug.log*
 
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+films-backend/logs
+films-backend/*.log
+films-backend/npm-debug.log*
+films-backend/yarn-debug.log*
+films-backend/yarn-error.log*
+films-backend/lerna-debug.log*
+
+# dependencies
+films-frontend/node_modules
+films-frontend/.pnp
+films-frontend/.pnp.js
+
+# testing
+films-frontend/coverage
+
+# production
+films-frontend/build
+
+# misc
+films-frontend/.DS_Store
+films-frontend/npm-debug.log*
+films-frontend/yarn-debug.log*
+films-frontend/yarn-error.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
