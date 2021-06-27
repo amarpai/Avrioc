@@ -10,7 +10,7 @@ import {
 import { FilmService } from '../services/film.service';
 import { ValidateObjectId } from '../shared/pipes/validate-object-id.pipes';
 
-@Controller('films')
+@Controller('api/v1/films')
 export class FilmReadController {
   constructor(private filmService: FilmService) {}
 

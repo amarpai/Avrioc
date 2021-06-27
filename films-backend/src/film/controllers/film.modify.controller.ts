@@ -2,7 +2,7 @@ import { Controller, Res, HttpStatus, Post, Body } from '@nestjs/common';
 import { FilmService } from '../services/film.service';
 import { CreateFilmDTO } from '../dto/create-film.dto';
 
-@Controller('film')
+@Controller('api/v1/film')
 export class FilmModifyController {
   constructor(private filmService: FilmService) {}
 
