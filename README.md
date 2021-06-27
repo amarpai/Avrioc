@@ -11,14 +11,16 @@ Backend - Nodejs/Nestjs | Frontend - Reactjs/Typescript  (Amar Pai Fondekar)
 4) npm run start:dev
 
 ```bash
-POST http://localhost:5000/film/create
-GET http://localhost:5000/films
-GET http://localhost:5000/films/id
+POST http://localhost:5000/api/v1/film/create
+
+GET http://localhost:5000/api/v1/films
+
+GET http://localhost:5000/api/v1/films/id
 ```
-Note: Ideally API endpoints should follow the following convention (TBD) http://localhost:5000/api/v1/film/create.
 
 Postman Export: https://www.getpostman.com/collections/0fa4af0dac0d0a9c4a4e
-![image](https://user-images.githubusercontent.com/10544557/123556511-3c892d80-d7a9-11eb-9f6e-265a90d2ad76.png)
+
+![image](https://user-images.githubusercontent.com/10544557/123557089-97705400-d7ac-11eb-953a-b9832ce59564.png)
 
 
 ## React Application (port 3000)
