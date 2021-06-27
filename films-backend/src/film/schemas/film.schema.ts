@@ -35,7 +35,6 @@ export const FilmSchema = new mongoose.Schema({
   genre: [
     {
       type: String,
-      required: true,
     },
   ],
   photo: {
