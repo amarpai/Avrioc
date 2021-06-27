@@ -1,6 +1,12 @@
 # Avrioc-Assignment
 Backend - Nodejs/Nestjs | Frontend - Reactjs/Typescript  (Amar Pai Fondekar)
 
+**Features Completed:**__
+* Backend API for Listing, Details, Create Film.
+* Created DB migration + Seeder
+* Created React + Typescript Frontend (I like using Material UI components but due to time constraints i opted for Bootstrap UI)
+* Integrated Listing, Details and Create Film API.
+
 
 ## API backend endpoints (port 5000)
 
