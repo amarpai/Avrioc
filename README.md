@@ -5,9 +5,10 @@ Backend - Nodejs/Nestjs | Frontend - Reactjs/Typescript  (Amar Pai Fondekar)
 ## API backend endpoints (port 5000)
 
 * Steps to Start the Application
-1) npm Install
-2) npm run migrate:up
-3) npm run start:dev
+1) go to films-backend
+2) npm Install
+3) npm run migrate:up
+4) npm run start:dev
 
 ```bash
 POST http://localhost:5000/film/create
@@ -23,8 +24,10 @@ Postman Export: https://www.getpostman.com/collections/0fa4af0dac0d0a9c4a4e
 ## React Application (port 3000)
 
 * Steps to Start the Application
+1) go to films-frontend
 1) npm Install
 2) npm start
 
-snapshot of the application
+Page should load on http://localhost:3000/
+
 ![films-listing](https://user-images.githubusercontent.com/10544557/123556621-c46f3780-d7a9-11eb-826e-1500fceb62a3.png)
