@@ -1,3 +1,16 @@
+
+# compiled output
+films-backend/dist
+films-backend/node_modules
+
+# Logs
+films-backend/logs
+films-backend/*.log
+films-backend/npm-debug.log*
+films-backend/yarn-debug.log*
+films-backend/yarn-error.log*
+films-backend/lerna-debug.log*
+
 # Logs
 logs
 *.log
@@ -77,6 +90,7 @@ typings/
 
 # Next.js build output
 .next
+films-backend/.next
 
 # Nuxt.js build / generate output
 .nuxt
